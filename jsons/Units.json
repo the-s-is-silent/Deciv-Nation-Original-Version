@@ -1,4 +1,15 @@
 [
+	{
+		"name": "Capitalian Settler",
+		"unitType": "Civilian",
+		"replaces": "Civilian Convoy",
+		"uniqueTo": "Capitalia",
+		"movement": 2,
+		"cost": 106,
+		"uniques": ["Founds a new city <by consuming this unit>",
+			"Will not be displayed in Civilopedia", "Unbuildable", "Cannot be purchased"],
+		"hurryCostModifier": 20
+	},
     {
         "name": "Capitalian Guard",
         "uniqueTo": "Capitalia",
@@ -8,15 +19,12 @@
 		"strength": 65,
 		"requiredTech": "Energy Weapons",
 		"hurryCostModifier": 200,
-		"uniques": [
-			"Personnel",
-            "Consumes [3] [Weapons]",
+		"uniques": ["Personnel", "Consumes [1] [Weapons]",
             "All adjacent units heal [+5] HP when healing",
-			"All adjacent units heal [+10] HP when healing <in [Land] [Friendly Land] tiles>",
-		],
-	        "promotions": ["[Capitalian Guard] ability", "Gas Mask"],
+			"All adjacent units heal [+10] HP when healing <in [Land] [Friendly Land] tiles>"],
+		"promotions": ["[Capitalian Guard] ability", "Gas Mask"],
 		"attackSound": "shot"
-        },
+	},
 	{
 		"name": "The Sky Monitor",
 		"replaces": "Hovercraft",
@@ -31,12 +39,11 @@
 		"requiredTech": "Future Materials",
 		"uniques": [
 			"Personnel",
-			"Consumes [5] [Weapons]",
-      "Consumes [3] [Oil]",
+			"Consumes [2] [Aluminum]",
+			"Consumes [2] [Oil]",
 			"Only available <if [Aerospace Facility] is constructed>",
-      "Cannot be purchased",
-      "Limited to [1] per Civilization",
-			"[-1] Sight"
+			"Cannot be purchased",
+			"Limited to [1] per Civilization"
 		],
 		"attackSound": "shot"
 	}

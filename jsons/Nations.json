@@ -1,13 +1,5 @@
 [
-	//Spectator
 	{
-		"name": "Spectator",
-		"outerColor": [255,255,255]
-//		"innerColor": [255,255,255]
-	},
-
-	{
-		//nations
 		"name": "Capitalia",
 		"leaderName": "Praefectus",
 		"adjective": ["Capitalian"],
@@ -20,7 +12,7 @@
 		"declaringWar": "Resources are scarce, our people must survive.",
 		"attacked": "A foolish action that you will come to regret.",
 		"defeated": "With heavy hearts and the weight of responsibility, I hereby declare the surrender of our nation, acknowledging the need for peace and the preservation of our people.!",
-		"introduction": "Greetings, fellow survivors of the Cataclysm, I am the Parefectus, leader of Capitalia. We as a people, are inherently peaceful, and we hope you are too.",
+		"introduction": "Greetings, fellow survivors of the Cataclysm, I am the Praefectus, leader of Capitalia. We as a people, are inherently peaceful, and we hope you are too.",
 
 		"neutralHello": "Greetings, have you come to trade??",
 		"hateHello": "What does this wretch want?",
@@ -31,9 +23,15 @@
 		"innerColor": [266,225,157],
 		"favoredReligion": "Humanism",
 		"uniqueName": "Caput Mundi",
-		"uniques": [ "Starts with [Constitution] adopted", "[+70]% Strength <for [All] units> <when fighting in [Friendly Land] tiles> <when at war>", "[+200]% growth [in all cities] <when not at war>", "Starts with [Construction]", "Starts with [Writing]", "Cannot build [Settler] units", "Cannot build [Enslaved] units"],
+		"uniques": ["Starts with [Constitution] adopted",
+			"[+50]% Strength <for [All] units> <when fighting in [Friendly Land] tiles> <when at war>",
+			"[+50]% growth [in capital] <when not at war>",
+			"Starts with [Construction]",
+			"Starts with [Writing]",
+			"Cannot build [Civilian Convoy] units",
+			"Cannot build [Enslaved] units",
+			"May not annex cities"],
 		"cities": ["Capitalia"],
         "spyNames": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]
 	}
-
 ]
