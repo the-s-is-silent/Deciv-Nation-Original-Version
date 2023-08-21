@@ -1,8 +1,8 @@
 [
 	{
 		"name": "[Capitalian Guard] ability",
-		"uniques": ["[+200]% Strength decreasing with distance from the capital",
-			"[+50]% Strength <when defending>"],
+		"uniques": ["[+50]% Strength decreasing with distance from the capital",
+			"[+25]% Strength <when defending>"],
 		"column": 6,
 		"row": 14
 	}

@@ -4,7 +4,7 @@
 		"isWonder": true,
 		"uniqueTo": "Capitalia",
 		"cost": 1,
-		"citystrength": 20,
+		"citystrength": 5,
 		"cityhealth": 100,
 		"gold": 5,
 		"uniques": ["Can only be built [in capital]",
@@ -26,18 +26,18 @@
 	{
 		"name": "The Bastion",
 		"uniqueTo": "Capitalia",
-		"cityStrength": 15,
+		"cityStrength": 10,
 		"cityHealth": 150,
 		"percentStatBonus": {"production": 25},
-		"cost": 2500,
 		"isWonder": true,
 		"uniques": ["Provides [2] [Encrypted Data]",
 			"Provides [2] [Power]",
-      "Provides [6] [Weapons]",
+			"Provides [6] [Weapons]",
 			"[+4 Culture] [in this city] <after discovering [Computers]>",
 			"[6] free [Capitalian Guard] units appear",
 			"Can only be built [in capital]",
 			"Gain a free [Stronghold] [in this city]"],
+		"requiredTech": "Munitions",
 		"quote": "A great monolithic structure overlooking our city, it is truly a masterpiece produced by the finest engineers and architectures we have. The Bastion will provide us a stronghold in the event of a foreign invasion, and in times of peace, jobs for the masses and a symbol of our power and prosperity.",
 		"civilopediaText": [
 			{
@@ -51,9 +51,9 @@
 		"uniqueTo": "Capitalia",
 		"cost": 100,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+1 Culture] per [2] population [in all cities]",
-			"[-50]% unhappiness from [Population] [in all cities connected to capital]",
-			"[+25]% growth [in all cities connected to capital]",
+		"uniques": ["[+1 Culture] per [4] population [in all cities]",
+			"[-25]% unhappiness from [Population] [in all cities connected to capital]",
+			"[+15]% growth [in all cities connected to capital]",
 			"Only available <if [Search for Survivors] is constructed>",
 			"Can only be built [in capital]",
 			"Destroyed when the city is captured"]
@@ -74,7 +74,8 @@
 		"culture": 3,
 		"maintenance": 3,
 		"uniques": ["Population loss from nuclear attacks [-75]% [in this city]",
-			"[+1] Unit Supply per [2] population [in this city]"]
+			"[+1] Unit Supply per [2] population [in this city]",
+			"Provides [2] [Weapons]"]
 	},
 	{
 		"name": "Vertical Farms",
@@ -85,8 +86,9 @@
 		"food": 4,
 		"specialistSlots": {"Farmer": 3},
 		"requiredTech": "Botany",
-		"uniques": ["[+2 Food] from [Tubers] tiles [in this city]",
-			"[+2 Food] from [Grain] tiles [in this city]"]
+		"uniques": ["[+1 Food] from [Tubers] tiles [in this city]",
+			"[+1 Food] from [Grain] tiles [in this city]",
+			"[+2 Food, +2 Production] from [Factory farm] tiles [in this city]"]
 	},
 	{
 		"name": "Fusion Plant",
@@ -97,7 +99,8 @@
 		"requiredTech": "Nuclear Fission",
 		"uniques": ["Consumes [2] [Uranium]",
 			"Consumes [1] [Aluminum]",
-			"Provides [12] [Power]",
+			"Provides [4] [Power]",
+			"Provides [8] [Power] <when above [0] [Uranium]>",
 			"[+33]% Production when constructing [Manhattan Project] wonders [in this city]",
 			"[+33]% Production when constructing [Missile] units [in this city]",
 			"Only available <in cities without a [Coal Plant]>", "Only available <in cities without a [Recycling Plant]>",

@@ -6,12 +6,12 @@
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Diplomatic",
 
-		"startIntroPart1": "Ladies and gentlemen, survivors of the catacylsm that brought our world to its knees, I stand before you today as a beacon of hope, a symbol of resilience, and a testament to the indomitable human spirit. We have endured unimaginable hardships, witnessed the collapse of our once-thriving civilization, and faced the brink of annihilation",
+		"startIntroPart1": "Ladies and gentlemen, survivors of the Cataclysm that brought our world to its knees, I stand before you today as a beacon of hope, a symbol of resilience, and a testament to the indomitable human spirit. We have endured unimaginable hardships, witnessed the collapse of our once-thriving civilization, and faced the brink of annihilation.",
 		"startIntroPart2": "But here we are, survivors, united in our determination to rebuild what was lost and forge a new future. The story of our civilization will not end with destruction; instead, it will be defined by our ability to survive, rebuild, and thrive. Thank you, and let us embark on this remarkable journey together.",
 
 		"declaringWar": "Resources are scarce, our people must survive.",
 		"attacked": "A foolish action that you will come to regret.",
-		"defeated": "With heavy hearts and the weight of responsibility, I hereby declare the surrender of our nation, acknowledging the need for peace and the preservation of our people.!",
+		"defeated": "With heavy hearts and the weight of responsibility, I hereby declare the surrender of our nation, acknowledging the need for peace and the preservation of our people!",
 		"introduction": "Greetings, fellow survivors of the Cataclysm, I am the Praefectus, leader of Capitalia. We as a people, are inherently peaceful, and we hope you are too.",
 
 		"neutralHello": "Greetings, have you come to trade??",
@@ -22,16 +22,16 @@
 		"outerColor": [34,52,52],
 		"innerColor": [266,225,157],
 		"favoredReligion": "Humanism",
-		"uniqueName": "Caput Mundi",
+		"uniqueName": "Capital of the World",
 		"uniques": ["Starts with [Constitution] adopted",
-			"[+50]% Strength <for [All] units> <when fighting in [Friendly Land] tiles> <when at war>",
-			"[+50]% growth [in capital] <when not at war>",
+			"[+25]% Strength <for [All] units> <when fighting in [Friendly Land] tiles> <when at war>",
+			"[+25]% growth [in capital] <when not at war>",
 			"Starts with [Construction]",
 			"Starts with [Writing]",
 			"Cannot build [Civilian Convoy] units",
 			"Cannot build [Enslaved] units",
 			"May not annex cities"],
-		"cities": ["Capitalia"],
+		"cities": ["Capitalia", "Outpost Estates", "Rocca Ultima"],
         "spyNames": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]
 	}
 ]

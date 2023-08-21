@@ -1,15 +1,4 @@
 [
-	{
-		"name": "Capitalian Settler",
-		"unitType": "Civilian",
-		"replaces": "Civilian Convoy",
-		"uniqueTo": "Capitalia",
-		"movement": 2,
-		"cost": 106,
-		"uniques": ["Founds a new city <by consuming this unit>",
-			"Will not be displayed in Civilopedia", "Unbuildable", "Cannot be purchased"],
-		"hurryCostModifier": 20
-	},
     {
         "name": "Capitalian Guard",
         "uniqueTo": "Capitalia",
@@ -34,17 +23,15 @@
 		"movement": 1,
 		"strength": 100,
 		"rangedStrength": 110,
-		"range": 3,
+		"range": 4,
 		"interceptRange": 4,
 		"requiredTech": "Future Materials",
-		"uniques": [
-			"Personnel",
+		"uniques": ["Personnel",
 			"Consumes [2] [Aluminum]",
 			"Consumes [2] [Oil]",
 			"Only available <if [Aerospace Facility] is constructed>",
 			"Cannot be purchased",
-			"Limited to [1] per Civilization"
-		],
-		"attackSound": "shot"
+			"Limited to [1] per Civilization"],
+		"attackSound": "shipguns"
 	}
 ]
