@@ -20,11 +20,11 @@
 
 		"tradeRequest": "Capitalia is known for its remarkable preservation of resources, yet we do not have everything we need. We wish to negotiate a trade.",
 
-		"outerColor": [34,52,52],
-		"innerColor": [266,225,157],
+		"outerColor": [104, 246, 36],
+		"innerColor": [242, 36, 44],
 		"style": "Legion",
 		"favoredReligion": "Humanism",
-		"uniqueName": "Capital of the World",
+		"uniqueName": "Capital of the Post-Cataclysm World",
 		"uniques": [
 			"[+50]% [Strategic] resource production",
 			"[+100]% Yield from every [{improved} {Land}] <in tiles adjacent to [Capital Marker] tiles>",

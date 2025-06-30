@@ -1,9 +1,6 @@
 [
 	{
 		"name": "[Capitalian Guard] ability",
-		"uniques": [
-			"[+30]% Strength <when defending>",
-			"[-30]% XP required for promotions"
-		]
+		"uniques": ["[+30]% Strength <when defending>"]
 	}
 ]
