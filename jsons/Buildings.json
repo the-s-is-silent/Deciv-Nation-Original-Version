@@ -3,23 +3,27 @@
 		"name": "Caput Mundi",
 		"isWonder": true,
 		"uniqueTo": "Capitalia",
-		"cost": 1,
+		"cost": 0,
 		"citystrength": 5,
 		"cityhealth": 100,
 		"gold": 5,
-		"uniques": ["Can only be built [in capital]",
+		"uniques": [
 			"[6] units cost no maintenance",
 			"[+6] Unit Supply",
-			"[+2 Culture] from every specialist [in this city]",
-			"[+15]% growth [in this city]",
-			"[10]% Food is carried over after population increases [in this city]"],
+			"[+1 Culture, +1 Science] from every specialist [in this city]",
+			"Free [State Guard] appears",
+			"Free [Worker] appears",
+			"Automatically built in all cities where it is buildable",
+			"Can only be built <in [Capital] cities>",
+			"Gain a free [Rations Station] [in this city]"
+		],
 		"quote": "Civilizations have rose and fell for centuries, but we do not intend to fall, for we have witnessed the mistakes of our ancestors and learnt. We are the Caput Mundi, Capital of the World, a shining beacon of civilization upon this desolate world.",
 		"civilopediaText": [
 			{
-				"text": "Capitalia is one of the few surviving cities of old, boasting a population of several hundred thousands, it is one of the largest and greatest cities in the wasteland."
+				"text": "Capitalia is one of the few surviving cities of old, boasting a population of several hundred thousand, it is one of the largest and greatest cities in the wasteland."
 			},
 			{
-				"text": "Situated upon the vital chokepoint between Caesar's Crimson Legion and Hexlock, Capitalia must juggle a balance of diplomacy and deterrence to ensure their independence."
+				"text": "Situated upon the vital chokepoint between Caesar's Crimson Legion and Hexlock and led by defectors from the former faction, Capitalia must juggle a balance of diplomacy and deterrence to ensure its independence."
 			}
 		]
 	},
@@ -29,16 +33,17 @@
 		"cityStrength": 10,
 		"cityHealth": 150,
 		"percentStatBonus": {"production": 25},
-		"isWonder": true,
-		"uniques": ["Provides [2] [Encrypted Data]",
+		"isNationalWonder": true,
+		"uniques": [
+			"Provides [2] [Encrypted Data]",
 			"Provides [2] [Power]",
 			"Provides [6] [Weapons]",
 			"[+4 Culture] [in this city] <after discovering [Computers]>",
 			"[6] free [Capitalian Guard] units appear",
-			"Can only be built [in capital]",
-			"Gain a free [Stronghold] [in this city]"],
+			"Can only be built <in [Capital] cities>",
+			"Gain a free [Luxury Shelter] [in this city]"
+		],
 		"requiredTech": "Munitions",
-		"quote": "A great monolithic structure overlooking our city, it is truly a masterpiece produced by the finest engineers and architectures we have. The Bastion will provide us a stronghold in the event of a foreign invasion, and in times of peace, jobs for the masses and a symbol of our power and prosperity.",
 		"civilopediaText": [
 			{
 				"text": "A great monolithic structure overlooking our city, it is truly a masterpiece produced by the finest engineers and architectures we have. The Bastion will provide us a stronghold in the event of a foreign invasion, and in times of peace, jobs for the masses and a symbol of our power and prosperity."
@@ -46,64 +51,124 @@
 		]
 	},
 	{
-		"name": "House of Representatives",
+		"name": "House of the People",
 		"replaces": "Congress",
 		"uniqueTo": "Capitalia",
 		"cost": 100,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+1 Culture] per [4] population [in all cities]",
-			"[-25]% unhappiness from [Population] [in all cities connected to capital]",
-			"[+15]% growth [in all cities connected to capital]",
+		"uniques": [
+			"[+1 Gold, +1 Culture] per [4] population [in all cities]",
+			"[-5]% unhappiness from [Population] [in all cities]",
+			"Gifts of Gold to City-States generate [25]% more Influence",
 			"Only available <if [Search for Survivors] is constructed>",
-			"Can only be built [in capital]",
-			"Destroyed when the city is captured"]
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Representative Council]>",
+			"Destroyed when the city is captured"
+		]
 	},
 	{
-		"name": "Capitalian Council",
+		"name": "Representative Council",
 		"replaces": "Council",
 		"uniqueTo": "Capitalia",
-		"uniques": ["Unbuildable", "Cannot be purchased", "Will not be displayed in Civilopedia"]
+		"cost": 100,
+		"uniques": [
+			"[+15]% growth [in all cities connected to capital]",
+			"[+5]% Production when constructing [All] buildings [in all cities connected to capital]",
+			"Resting point for Influence with City-States is increased by [30]",
+			"Only available <if [Search for Survivors] is constructed>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [House of the People]>",
+			"Destroyed when the city is captured"
+		]
 	},
 	{
-		"name": "Stronghold",
+		"name": "Luxury Shelter",
 		"replaces": "Bunker",
 		"uniqueTo": "Capitalia",
 		"cost": 300,
 		"requiredTech": "Munitions",
-		"cityHealth": 300,
-		"culture": 3,
-		"maintenance": 3,
-		"uniques": ["Population loss from nuclear attacks [-75]% [in this city]",
+		"cityHealth": 150,
+		"food": 2,
+		"culture": 2,
+		"happiness": 2,
+		"maintenance": 2,
+		"hurryCostModifier": 50,
+		"uniques": [
+			"City Defense",
+			"Population loss from nuclear attacks [-80]% [in this city]",
+			"Damage to garrison from nuclear attacks [-80]% [in this city]",
 			"[+1] Unit Supply per [2] population [in this city]",
-			"Provides [2] [Weapons]"]
+			"Destroyed when the city is captured",
+			"Only available <when nuclear weapons are enabled> <hidden from users>"
+		],
+		"civilopediaText": [
+			{
+				"text": "Modeled after and improving upon the so-called 'billionaire bunkers' of the pre-Cataclysm era, these shelters are unmatched at their purpose of ensuring mankind's survival whilst providing comfortable living in the event of another Cataclysm."
+			}
+		]
 	},
 	{
-		"name": "Vertical Farms",
-		"replaces": "Greenhouse",
+		"name": "Rations Station",
+		"replaces": "Food Store",
 		"uniqueTo": "Capitalia",
-		"cost": 125,
-		"maintenance": 3,
-		"food": 4,
-		"specialistSlots": {"Farmer": 3},
-		"requiredTech": "Botany",
-		"uniques": ["[+1 Food] from [Tubers] tiles [in this city]",
-			"[+1 Food] from [Grain] tiles [in this city]",
-			"[+2 Food, +2 Production] from [Factory farm] tiles [in this city]"]
+		"food": 2,
+		"cost": 10,
+		"maintenance": 1,
+		"uniques": [
+			"[30]% Food is carried over after population increases [in this city]",
+			"[+10]% growth [in this city] <with [Salt]>",
+			"[-1 Production, +1 Gold] [in this city] <with [Alcohol]>",
+			"[-1 Production, +1 Gold] [in this city] <with [Narcotics]>",
+			"[-1 Production, -1 Food, +1 Gold] [in this city] <with [Refined Narcotics]>"
+		]
 	},
 	{
-		"name": "Fusion Plant",
+		"name": "Vertical Farm Network",
+		"replaces": "Hydroponic Farming",
+		"uniqueTo": "Capitalia",
+		"maintenance": 3,
+		"food": 5,
+		"specialistSlots": {"Farmer": 2},
+		"requiredTech": "Hydroponics",
+		"uniques": [
+			"Consumes [1] [Power]",
+			"[+2 Food, +2 Production] from [Factory farm] tiles [in this city]",
+			"[+1 Food] [in this city] <with [Exotic Seeds]>"
+		]
+	},
+	{
+		"name": "Traders' Guild House",
+		"replaces": "Market",
+		"uniqueTo": "Capitalia",
+		"gold": 2,
+		"culture": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Gold] from [Luxury resource] tiles [in this city]",
+			"Provides 1 extra copy of each improved luxury resource near this City"
+		],
+		"requiredTech": "Trade"
+	},
+	{
+		"name": "Stable Salt Reactor",
 		"replaces": "Nuclear Plant",
 		"uniqueTo": "Capitalia",
-		"cost": 1000,
+		"cost": 900,
 		"maintenance": 5,
+		"hurryCostModifier": 33,
 		"requiredTech": "Nuclear Fission",
-		"uniques": ["Consumes [2] [Uranium]",
-			"Consumes [1] [Aluminum]",
+		"uniques": [
+			"Consumes [1] [Uranium]",
+			"Consumes [1] [Salt]",
 			"Provides [4] [Power]",
-			"Provides [8] [Power] <when above [0] [Uranium]>",
+			"Provides [16] [Power] <when above [-2] [Uranium]>",
 			"[+33]% Production when constructing [Manhattan Project] wonders [in this city]",
-			"[+33]% Production when constructing [Missile] units [in this city]",
-			"Only available <in cities without a [Coal Plant]>", "Only available <in cities without a [Recycling Plant]>",
-			"Only available <in cities with a [Library]>"]
+			"[+33]% Production when constructing [Nuclear Weapon] units [in this city]",
+			"Only available <in cities without a [Coal Plant]>",
+			"Only available <in cities without a [Oil Plant]>",
+			"Only available <in cities without a [Advanced Energy Recycling Plant]>",
+			"Only available <in cities with a [Library]>"
+		]
 	}
 ]

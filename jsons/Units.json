@@ -6,32 +6,41 @@
 		"cost": 350,
 		"movement": 1,
 		"strength": 65,
-		"requiredTech": "Energy Weapons",
+		"rangedStrength": 60,
+		"range": 2,
+		"interceptRange": 2,
+		"requiredTech": "Full-Spectrum Dominance",
+		"upgradesTo": "Black Ops",
 		"hurryCostModifier": 200,
-		"uniques": ["Personnel", "Consumes [1] [Weapons]",
+		"uniques": [
+			"Personnel",
+			"Consumes [1] [Weapons]",
             "All adjacent units heal [+5] HP when healing",
-			"All adjacent units heal [+10] HP when healing <in [Land] [Friendly Land] tiles>"],
+			"All adjacent units heal [+10] HP when healing <in [Land] [Friendly Land] tiles>"
+		],
 		"promotions": ["[Capitalian Guard] ability", "Gas Mask"],
 		"attackSound": "shot"
 	},
 	{
 		"name": "The Sky Monitor",
-		"replaces": "Hovercraft",
         "uniqueTo": "Capitalia",
 		"unitType": "Helicopter",
 		"cost": 1250,
-		"movement": 1,
+		"movement": 2,
 		"strength": 100,
 		"rangedStrength": 110,
 		"range": 4,
 		"interceptRange": 4,
 		"requiredTech": "Future Materials",
-		"uniques": ["Personnel",
+		"uniques": [
+			"Can only attack [Military] units",
+			"Withdraws before melee combat <with [50]% chance>",
 			"Consumes [2] [Aluminum]",
 			"Consumes [2] [Oil]",
 			"Only available <if [Aerospace Facility] is constructed>",
 			"Cannot be purchased",
-			"Limited to [1] per Civilization"],
+			"Limited to [1] per Civilization"
+		],
 		"attackSound": "shipguns"
 	}
 ]
