@@ -27,8 +27,7 @@
 		"uniqueName": "Capital of the Post-Cataclysm World",
 		"uniques": [
 			"[+50]% [Strategic] resource production",
-			"[+100]% Yield from every [{improved} {Land}] <in tiles adjacent to [Capital Marker] tiles>",
-			"[+100]% Yield from every [{improved} {Water}] <in tiles adjacent to [Capital Marker] tiles>",
+			"[+100]% Yield from every [Improvement] <in tiles adjacent to [Capital Marker] tiles>",
 			"[+30]% Strength decreasing with distance from the capital",
 			"[+20]% growth [in capital] <when not at war>",
 			"Starts with [Construction]",
@@ -39,6 +38,6 @@
 			"May buy items in puppet cities"
 		],
 		"cities": ["Capitalia", "Novum Mundi", "Outpost Estates", "Rocca Ultima"],
-        "spyNames": ["Ashur", "Solonius", "Caudex", "Donar", "Navia", "Felix", "Sybil", "Mira", "Varus", "Jocasta"]
+		"spyNames": ["Ashur", "Solonius", "Caudex", "Donar", "Navia", "Felix", "Sybil", "Mira", "Varus", "Jocasta"]
 	}
 ]
