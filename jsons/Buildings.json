@@ -4,15 +4,11 @@
 		"isWonder": true,
 		"uniqueTo": "Capitalia",
 		"cost": 0,
-		"citystrength": 5,
-		"cityhealth": 100,
-		"gold": 5,
+		"gold": 3,
 		"uniques": [
 			"[6] units cost no maintenance",
 			"[+6] Unit Supply",
-			"[+1 Culture, +1 Science] from every specialist [in this city]",
 			"Free [State Guard] appears",
-			"Free [Worker] appears",
 			"Automatically built in all cities where it is buildable",
 			"Can only be built <in [Capital] cities>",
 			"Gain a free [Rations Station] [in this city]"
@@ -71,6 +67,7 @@
 		"replaces": "Council",
 		"uniqueTo": "Capitalia",
 		"cost": 100,
+		"requiredTech": "Civil Service",
 		"uniques": [
 			"[+15]% growth [in all cities connected to capital]",
 			"[+5]% Production when constructing [All] buildings [in all cities connected to capital]",
@@ -99,6 +96,7 @@
 			"Damage to garrison from nuclear attacks [-80]% [in this city]",
 			"[+1] Unit Supply per [2] population [in this city]",
 			"Destroyed when the city is captured",
+			"Only available <in cities with a [Hardened Defenses]>",
 			"Only available <when nuclear weapons are enabled> <hidden from users>"
 		],
 		"civilopediaText": [
